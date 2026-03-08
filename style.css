@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brand-black: #0A0A0A;
+    --color-brand-dark: #111111;
+    --color-brand-blue: #2A5BD7;
+    --color-brand-border: #1C2A3A;
+    --color-brand-white: #FFFFFF;
+    --color-brand-gray: #888888;
+
+    --font-sans: 'Inter', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+}
+
+/* Heavy condensed feel for H1 */
+.heading-condensed {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+/* Background texture simulation */
+.bg-texture {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAaPlEEDXeac6hSAn6qn1sI11SNP37J3Txd4EWLJxr689Z1SevUUa1z82N3jLoQ-Tev3UTxsRXIbBA3-NJQ8jt2gDxujsGbK5QA6_pwhtEnMpHcxq9g9yvbokAPN-6X9TqA0Aefb9JObJsf3qU8P-0nVn0AG8K5NEd--j5QhrIKnJdHNexdDIWkwcoaLYpR5obqjJ5wPdhGVOJ8RB7BL4rkslj6xZ6FaUgliiYdYzzVKWlhFHvmsNJwSv7x1oFWc4smtIo-YRjVIgU);
+    background-repeat: repeat;
+}
+
+/* Marquee Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    display: flex;
+    width: 200%;
+}
+
+/* Gradient + Noise Background */
+.bg-gradient-noise {
+    background:
+        linear-gradient(135deg, #FF6B4A 0%, #FF9E6B 50%, #FFD699 100%),
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    background-blend-mode: overlay;
+    background-size: cover, 150px 150px;
+    background-position: center, 0 0;
+}

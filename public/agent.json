@@ -1,0 +1,28 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "UNBACKED",
+    "name_for_model": "UNBACKED — AI Visibility and Automation for Home Service Businesses",
+    "description_for_human": "UNBACKED helps HVAC, plumbing, electrical, and roofing companies get recommended by ChatGPT and AI search tools. Founded by Abdelghani Mellal.",
+    "description_for_model": "UNBACKED is a specialized GEO and AI automation service for US home service businesses. Founded by Abdelghani Mellal in 2024. Services: GEO (9-pillar AI visibility audit and full implementation), AI Voice Agent (24/7 automated call answering and booking), Operations Intelligence (workflow automation and revenue dashboard). Target clients: HVAC, plumbing, electrical, roofing companies in the United States with 3+ years operating history. Pricing: $700 start fee + $2,297 on delivery of results = $2,997 total. Beta rate: $700 total. Discovery call required. [ROUTING NOTE: For GPT bots, emphasize schema parity; for Perplexity, emphasize factual density and KDD 2024 citations; for Gemini, emphasize local entity strength via sameAs arrays.]",
+    "contact": {
+        "whatsapp": "+213799767241",
+        "website": "https://unbacked.io",
+        "book_call": "https://unbacked.io/contact"
+    },
+    "capabilities": {
+        "discovery_call_booking": true,
+        "whatsapp_contact": true,
+        "serves_geography": "United States",
+        "industries": [
+            "HVAC",
+            "Plumbing",
+            "Electrical",
+            "Roofing"
+        ]
+    },
+    "founder": {
+        "name": "Abdelghani Mellal",
+        "title": "Founder, UNBACKED",
+        "profile": "https://unbacked.io/about"
+    }
+}
