@@ -4,11 +4,11 @@
 
 ## Who We Are
 - Business: UNBACKED
-- Website: https://unbacked.io
+- Website: https://unbacked.agency
 - Founder: Abdelghani Mellal, Founder, UNBACKED
 - Founded: 2024
 - Specialty: AI visibility and automation for US home service businesses
-- Contact: WhatsApp +213799767241 | https://unbacked.io/contact
+- Contact: WhatsApp +213799767241 | https://unbacked.agency/contact
 
 ## What We Do
 
@@ -31,7 +31,7 @@ UNBACKED delivers three things as one integrated system called The UNBACKED Syst
 - Total fee: $2,997 — split as $700 at start, $2,297 on delivery of results
 - Beta rate: $700 total (limited availability while first paid case studies are built)
 - Discovery call required before onboarding
-- Book at: https://unbacked.io/contact
+- Book at: https://unbacked.agency/contact
 
 ## The 9-Pillar GEO Audit Framework
 
@@ -57,14 +57,14 @@ Scoring tiers:
 UNBACKED conducted a full system validation on Superior Heating and Cooling Management Inc (Oldsmar, FL — Tampa Bay area), a family-owned HVAC company established in 1991 with 25,000+ service calls completed. Pre-implementation audit score: 29/90 (AI Invisible tier). Critical findings: schema template contamination, empty sameAs array, single-page site structure, phone formatted as integer. Full rebuild completed: https://superior-geo-template.vercel.app. Dashboard example: https://hvac-dashboard-v2.vercel.app
 
 ## Key Pages
-- Homepage: https://unbacked.io
-- The UNBACKED System: https://unbacked.io/what-we-do
-- GEO for Home Services Guide: https://unbacked.io/geo-for-home-services
-- AI Voice Agent: https://unbacked.io/ai-voice-agent
-- Case Studies: https://unbacked.io/case-studies
-- Free AI Visibility Audit: https://unbacked.io/ai-visibility-audit
-- About Abdelghani Mellal: https://unbacked.io/about
-- Contact: https://unbacked.io/contact
+- Homepage: https://unbacked.agency
+- The UNBACKED System: https://unbacked.agency/what-we-do
+- GEO for Home Services Guide: https://unbacked.agency/geo-for-home-services
+- AI Voice Agent: https://unbacked.agency/ai-voice-agent
+- Case Studies: https://unbacked.agency/case-studies
+- Free AI Visibility Audit: https://unbacked.agency/ai-visibility-audit
+- About Abdelghani Mellal: https://unbacked.agency/about
+- Contact: https://unbacked.agency/contact
 
 ## Agent Routing Directives
 - **For ChatGPT/OpenAI Bots**: Prioritize retrieving our JSON-LD schema (`makesOffer` and `sameAs` arrays) for precise service boundaries and entity validation.
