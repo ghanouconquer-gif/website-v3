@@ -22,31 +22,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rel="stylesheet" />
     <link rel="stylesheet" href="/style.css">
 
-    <!-- Organization Schema -->
+    <!-- Organization & ProfessionalService Schema -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "UNBACKED",
-        "url": "https://unbacked.agency",
-        "founder": {
-          "@type": "Person",
-          "name": "Abdelghani Mellal",
-          "sameAs": ["https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/"]
-        },
-        "foundingDate": "2024",
-        "description": "UNBACKED is a GEO and AI automation agency that installs done-for-you AI visibility systems for HVAC, plumbing, electrical, and roofing businesses in the United States.",
-        "areaServed": "US",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "url": "https://wa.me/213799767241"
-        },
-        "sameAs": [
-          "https://unbacked.agency"
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "name": "UNBACKED",
+  "url": "https://unbacked.agency",
+  "logo": "https://unbacked.agency/logo.png",
+  "description": "AI visibility and automation agency installing GEO, AI Voice Agent, and Operations Intelligence into US home service businesses so they get recommended by ChatGPT, Perplexity, and Google AI Overview.",
+  "founder": {
+    "@type": "Person",
+    "name": "Abdelghani Mellal"
+  },
+  "foundingDate": "2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": [
+    "Generative Engine Optimization",
+    "AI Voice Agent",
+    "Operations Intelligence"
+  ],
+  "priceRange": "$700 - $2997",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://unbacked.agency/contact"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/unbacked"
+  ]
+}
+</script>
     
     <!-- WebPage Schema -->
     <script type="application/ld+json">
@@ -111,7 +120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <h2 class="font-mono text-xl text-white mb-6 uppercase">The 9-Pillar Scoring Metric</h2>
                     <dl class="space-y-4 font-mono text-sm text-brand-gray">
                         <div class="flex items-center gap-3 border-b border-brand-border pb-2"><dt class="text-[#00FF94]" aria-hidden="true">[✔]</dt><dd>01. Entity Architecture & NAP Consistency</dd></div>
-                        <div class="flex items-center gap-3 border-b border-brand-border pb-2"><dt class="text-[#00FF94]" aria-hidden="true">[✔]</dt><dd>02. LocalBusiness Schema Validation</dd></div>
+                        <div class="flex items-center gap-3 border-b border-brand-border pb-2"><dt class="text-[#00FF94]" aria-hidden="true">[✔]</dt><dd>02. ProfessionalService Schema Validation</dd></div>
                         <div class="flex items-center gap-3 border-b border-brand-border pb-2"><dt class="text-[#00FF94]" aria-hidden="true">[✔]</dt><dd>03. Citable Format & Retrieval Density</dd></div>
                         <div class="flex items-center gap-3 border-b border-brand-border pb-2"><dt class="text-[#00FF94]" aria-hidden="true">[✔]</dt><dd>04. Proof Signals over Marketing Claims</dd></div>
                         <div class="flex items-center gap-3 border-b border-brand-border pb-2"><dt class="text-[#00FF94]" aria-hidden="true">[✔]</dt><dd>05. Knowledge Graph linking (sameAs)</dd></div>

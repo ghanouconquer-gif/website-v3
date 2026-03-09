@@ -22,25 +22,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rel="stylesheet" />
     <link rel="stylesheet" href="/style.css">
 
-    <!-- Organization Schema -->
+    <!-- Organization & ProfessionalService Schema -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "UNBACKED",
-        "url": "https://unbacked.agency",
-        "founder": {
-          "@type": "Person",
-          "name": "Abdelghani Mellal",
-          "sameAs": ["https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/"]
-        },
-        "description": "UNBACKED is a GEO and AI automation agency that installs done-for-you AI visibility systems for HVAC, plumbing, electrical, and roofing businesses in the United States.",
-        "sameAs": [
-          "https://unbacked.agency",
-          "https://wa.me/213799767241"
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "name": "UNBACKED",
+  "url": "https://unbacked.agency",
+  "logo": "https://unbacked.agency/logo.png",
+  "description": "AI visibility and automation agency installing GEO, AI Voice Agent, and Operations Intelligence into US home service businesses so they get recommended by ChatGPT, Perplexity, and Google AI Overview.",
+  "founder": {
+    "@type": "Person",
+    "name": "Abdelghani Mellal"
+  },
+  "foundingDate": "2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": [
+    "Generative Engine Optimization",
+    "AI Voice Agent",
+    "Operations Intelligence"
+  ],
+  "priceRange": "$700 - $2997",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://unbacked.agency/contact"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/unbacked"
+  ]
+}
+</script>
     
     <!-- BreadcrumbList Schema -->
     <script type="application/ld+json">

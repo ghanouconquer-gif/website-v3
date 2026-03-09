@@ -22,108 +22,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     rel="stylesheet" />
   <link rel="stylesheet" href="/style.css">
 
-  <!-- Organization Schema -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "UNBACKED",
-      "url": "https://unbacked.agency",
-      "founder": {
-        "@type": "Person",
-        "name": "Abdelghani Mellal",
-          "sameAs": ["https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/"]
-      },
-      "foundingDate": "2024",
-      "description": "UNBACKED is a GEO and AI automation agency that installs done-for-you AI visibility systems for HVAC, plumbing, electrical, and roofing businesses in the United States.",
-      "areaServed": "US",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "url": "https://wa.me/213799767241"
-      },
-      "sameAs": [
-        "https://unbacked.agency"
-      ]
-    }
-  </script>
-
-  <!-- Global Schema -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "@id": "https://unbacked.agency/#business",
-      "name": "UNBACKED",
-      "founder": {
-            "@type": "Person",
-            "name": "Abdelghani Mellal",
-          "sameAs": ["https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/"],
-            "jobTitle": "Founder"
-      },
-      "foundingDate": "2024",
-      "description": "Abdelghani Mellal founded UNBACKED to install a single AI-powered growth system into US home service businesses. The system combines Generative Engine Optimization (GEO), 24/7 AI Voice Agents, and Operations Intelligence for HVAC, plumbing, electrical, and roofing companies.",
-      "url": "https://unbacked.agency",
-      "telephone": "+213799767241",
-      "areaServed": "United States",
-      "priceRange": "$$$",
-      "makesOffer": [
-            {
-                  "@type": "Offer",
-                  "itemOffered": {
-                        "@type": "Service",
-                        "name": "Generative Engine Optimization (GEO) for Home Services",
-                        "description": "9-Pillar AI visibility audit and full website rebuild."
-                  }
-            },
-            {
-                  "@type": "Offer",
-                  "itemOffered": {
-                        "@type": "Service",
-                        "name": "24/7 AI Voice Agent",
-                        "description": "Fine-tuned, low-latency AI voice model for call recovery."
-                  }
-            },
-            {
-                  "@type": "Offer",
-                  "itemOffered": {
-                        "@type": "Service",
-                        "name": "Operations Intelligence Dashboard",
-                        "description": "Real-time revenue tracking and CRM leak remediation."
-                  }
-            }
-      ],
-      "sameAs": [
-            "https://wa.me/213799767241"
-      ],
-      "openingHoursSpecification": [
-            {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday",
-                        "Thursday",
-                        "Friday"
-                  ],
-                  "opens": "09:00",
-                  "closes": "18:00"
-            }
-      ],
-      "knowsAbout": [
-            "Generative Engine Optimization",
-            "AI Voice Agents",
-            "Home Service Automation",
-            "Dark Funnel Measurement",
-            "Operations Intelligence"
-      ],
-      "image": "https://unbacked.agency/unbacked-logo.png",
-      "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "US"
-      }
+  <!-- Organization & ProfessionalService Schema -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "name": "UNBACKED",
+  "url": "https://unbacked.agency",
+  "logo": "https://unbacked.agency/logo.png",
+  "description": "AI visibility and automation agency installing GEO, AI Voice Agent, and Operations Intelligence into US home service businesses so they get recommended by ChatGPT, Perplexity, and Google AI Overview.",
+  "founder": {
+    "@type": "Person",
+    "name": "Abdelghani Mellal"
+  },
+  "foundingDate": "2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": [
+    "Generative Engine Optimization",
+    "AI Voice Agent",
+    "Operations Intelligence"
+  ],
+  "priceRange": "$700 - $2997",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://unbacked.agency/contact"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/unbacked"
+  ]
 }
-    </script>
+</script>
+
+  
 
   <!-- WebPage Schema -->
   <script type="application/ld+json">
@@ -177,7 +111,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           "name": "Who founded UNBACKED?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "UNBACKED was founded in 2024 by Abdelghani Mellal. The agency specializes in AI visibility mapping and operational automation engineered for the United States home services sector. Mellal designed the 9-Pillar GEO framework to format complex service data directly for Large Language Models."
+            "text": "UNBACKED was founded in 2026 by Abdelghani Mellal. The agency specializes in AI visibility mapping and operational automation engineered for the United States home services sector. Mellal designed the 9-Pillar GEO framework to format complex service data directly for Large Language Models."
           }
         },
         {
@@ -635,7 +569,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="border-b border-brand-border pb-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <h3 class="text-xl font-bold text-white mb-2" itemprop="name">Who founded UNBACKED?</h3>
           <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p class="text-brand-gray leading-relaxed" itemprop="text">UNBACKED was founded in 2024 by Abdelghani Mellal. The agency specializes in AI visibility mapping and operational automation engineered for the United States home services sector. Mellal designed the 9-Pillar GEO framework to format complex service data directly for Large Language Models.</p>
+            <p class="text-brand-gray leading-relaxed" itemprop="text">UNBACKED was founded in 2026 by Abdelghani Mellal. The agency specializes in AI visibility mapping and operational automation engineered for the United States home services sector. Mellal designed the 9-Pillar GEO framework to format complex service data directly for Large Language Models.</p>
           </div>
         </div>
 

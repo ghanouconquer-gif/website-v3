@@ -22,31 +22,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rel="stylesheet" />
     <link rel="stylesheet" href="/style.css">
 
-    <!-- Organization Schema -->
+    <!-- Organization & ProfessionalService Schema -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "UNBACKED",
-        "url": "https://unbacked.agency",
-        "founder": {
-          "@type": "Person",
-          "name": "Abdelghani Mellal",
-          "sameAs": ["https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/"]
-        },
-        "foundingDate": "2024",
-        "description": "UNBACKED is a GEO and AI automation agency that installs done-for-you AI visibility systems for HVAC, plumbing, electrical, and roofing businesses in the United States.",
-        "areaServed": "US",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "url": "https://wa.me/213799767241"
-        },
-        "sameAs": [
-          "https://unbacked.agency"
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "name": "UNBACKED",
+  "url": "https://unbacked.agency",
+  "logo": "https://unbacked.agency/logo.png",
+  "description": "AI visibility and automation agency installing GEO, AI Voice Agent, and Operations Intelligence into US home service businesses so they get recommended by ChatGPT, Perplexity, and Google AI Overview.",
+  "founder": {
+    "@type": "Person",
+    "name": "Abdelghani Mellal"
+  },
+  "foundingDate": "2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": [
+    "Generative Engine Optimization",
+    "AI Voice Agent",
+    "Operations Intelligence"
+  ],
+  "priceRange": "$700 - $2997",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://unbacked.agency/contact"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/unbacked"
+  ]
+}
+</script>
     
     <!-- FAQPage Schema -->
     <script type="application/ld+json">
@@ -194,7 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>New AI-Optimized Website</li>
                         <li><code class="text-[#00FF94] bg-[#00FF94]/10 px-1">llms.txt</code> file generated</li>
                         <li><code class="text-[#00FF94] bg-[#00FF94]/10 px-1">agent.json</code> injected</li>
-                        <li>Valid LocalBusiness + FAQ Schema</li>
+                        <li>Valid ProfessionalService + FAQ Schema</li>
                     </ul>
                 </div>
                 <div>

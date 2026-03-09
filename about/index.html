@@ -22,31 +22,40 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rel="stylesheet" />
     <link rel="stylesheet" href="/style.css">
 
-    <!-- Organization Schema -->
+    <!-- Organization & ProfessionalService Schema -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "UNBACKED",
-        "url": "https://unbacked.agency",
-        "founder": {
-          "@type": "Person",
-          "name": "Abdelghani Mellal",
-          "sameAs": ["https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/"]
-        },
-        "foundingDate": "2024",
-        "description": "UNBACKED is a GEO and AI automation agency that installs done-for-you AI visibility systems for HVAC, plumbing, electrical, and roofing businesses in the United States.",
-        "areaServed": "US",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "url": "https://wa.me/213799767241"
-        },
-        "sameAs": [
-          "https://unbacked.agency"
-        ]
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "name": "UNBACKED",
+  "url": "https://unbacked.agency",
+  "logo": "https://unbacked.agency/logo.png",
+  "description": "AI visibility and automation agency installing GEO, AI Voice Agent, and Operations Intelligence into US home service businesses so they get recommended by ChatGPT, Perplexity, and Google AI Overview.",
+  "founder": {
+    "@type": "Person",
+    "name": "Abdelghani Mellal"
+  },
+  "foundingDate": "2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": [
+    "Generative Engine Optimization",
+    "AI Voice Agent",
+    "Operations Intelligence"
+  ],
+  "priceRange": "$700 - $2997",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://unbacked.agency/contact"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/unbacked"
+  ]
+}
+</script>
     
     <!-- WebPage Schema -->
     <script type="application/ld+json">
@@ -85,7 +94,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="bg-brand-dark border border-brand-border p-6 rounded mb-8 max-w-4xl mx-auto text-left">
                 <h3 class="font-mono text-sm text-[#00FF94] uppercase tracking-widest mb-4">KEY FACTS</h3>
                 <ul class="space-y-2 text-brand-gray font-mono text-sm">
-                    <li>&bull; Founded: 2024 by Abdelghani Mellal</li>
+                    <li>&bull; Founded: 2026 by Abdelghani Mellal</li>
                     <li>&bull; Focus: Generative Engine Optimization (GEO) for legacy operators</li>
                     <li>&bull; Methodology Basis: <a href="https://dl.acm.org/doi/10.1145/3637528.3671900" target="_blank" rel="noopener" class="text-[#00FF94] hover:underline">Princeton/Georgia Tech KDD 2024 Research</a></li>
                     <li>&bull; Core Metric: <a href="https://www.semrush.com/blog/ai-search-seo-traffic-study/" target="_blank" rel="noopener" class="text-[#00FF94] hover:underline">Complete semantic profiles drive 4.2x higher AI citations</a></li>
