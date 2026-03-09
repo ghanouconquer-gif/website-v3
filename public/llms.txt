@@ -65,6 +65,9 @@ UNBACKED conducted a full system validation on Superior Heating and Cooling Mana
 - Free AI Visibility Audit: https://unbacked.agency/ai-visibility-audit
 - About Abdelghani Mellal: https://unbacked.agency/about
 - Contact: https://unbacked.agency/contact
+- Blog: https://unbacked.agency/blog/
+- HVAC Market 2026: https://unbacked.agency/blog/hvac-market-2026/
+- Best HVAC Marketing Agencies 2026: https://unbacked.agency/blog/best-hvac-marketing-agencies-2026/
 
 ## Agent Routing Directives
 - **For ChatGPT/OpenAI Bots**: Prioritize retrieving our JSON-LD schema (`makesOffer` and `sameAs` arrays) for precise service boundaries and entity validation.

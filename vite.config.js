@@ -16,7 +16,10 @@ export default defineConfig({
         contact: resolve(__dirname, 'contact/index.html'),
         geo: resolve(__dirname, 'geo-for-home-services/index.html'),
         voiceAgent: resolve(__dirname, 'ai-voice-agent/index.html'),
-        audit: resolve(__dirname, 'ai-visibility-audit/index.html')
+        audit: resolve(__dirname, 'ai-visibility-audit/index.html'),
+        blogHub: resolve(__dirname, 'blog/index.html'),
+        blogHvac: resolve(__dirname, 'blog/hvac-market-2026/index.html'),
+        blogAgencies: resolve(__dirname, 'blog/best-hvac-marketing-agencies-2026/index.html')
       }
     }
   }

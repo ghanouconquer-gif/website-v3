@@ -2,50 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://unbacked.agency/</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/what-we-do</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/what-we-do/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/geo-for-home-services</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/geo-for-home-services/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/ai-voice-agent</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/ai-voice-agent/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/case-studies</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/case-studies/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/ai-visibility-audit</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/ai-visibility-audit/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/about</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/about/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://unbacked.agency/contact</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://unbacked.agency/contact/</loc>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://unbacked.agency/blog/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://unbacked.agency/blog/hvac-market-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://unbacked.agency/blog/best-hvac-marketing-agencies-2026/</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
