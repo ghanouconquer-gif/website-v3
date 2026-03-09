@@ -25,6 +25,7 @@ export const footerHTML = `
 <li><a class="hover:text-brand-blue transition-colors" href="/about/">About</a></li>
 <li><a class="hover:text-brand-blue transition-colors" href="/ai-visibility-audit/">Free Audit</a></li>
 <li><a class="hover:text-brand-blue transition-colors" href="/contact/">Contact Us</a></li>
+<li><a class="hover:text-[#00FF94] transition-colors" href="https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
 </ul>
 <p class="font-mono text-[10px] text-brand-gray uppercase mb-4"><time datetime="2026-03-08">Last Updated: March 2026</time></p>
 <div class="flex items-center gap-2">
