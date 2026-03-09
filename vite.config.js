@@ -19,7 +19,8 @@ export default defineConfig({
         audit: resolve(__dirname, 'ai-visibility-audit/index.html'),
         blogHub: resolve(__dirname, 'blog/index.html'),
         blogHvac: resolve(__dirname, 'blog/hvac-market-2026/index.html'),
-        blogAgencies: resolve(__dirname, 'blog/best-hvac-marketing-agencies-2026/index.html')
+        blogAgencies: resolve(__dirname, 'blog/best-hvac-marketing-agencies-2026/index.html'),
+        researchTampa: resolve(__dirname, 'research/ai-visibility-tampa-hvac/index.html')
       }
     }
   }
