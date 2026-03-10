@@ -198,6 +198,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }
         }
       ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "UNBACKED AI Voice Receptionist — Aria",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Cloud",
+      "description": "Live VAPI-powered AI receptionist for HVAC businesses. Answers calls 24/7, books appointments, handles emergencies, integrates with ServiceTitan and Jobber CRMs.",
+      "featureList": [
+        "24/7 AI Call Answering",
+        "ServiceTitan CRM Integration",
+        "Emergency Call Routing",
+        "Appointment Booking",
+        "Returning Customer Recognition",
+        "Sub-500ms Latency"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "2997",
+        "priceCurrency": "USD"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "UNBACKED",
+        "url": "https://unbacked.agency"
+      }
     }
   ]
 }
@@ -495,6 +520,118 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <strong class="text-white">Fallback Logic:</strong> If <code class="bg-brand-dark px-1">ai_confidence_score</code> drops below 0.70 or the caller explicitly requests a human, the agent immediately routes to on-call staff with full call context pre-loaded.
                 </p>
             </div>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- AI RECEPTIONIST DEMO                           -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <section id="live-demo" aria-label="Live AI Receptionist Demo" class="py-16 mb-16 bg-brand-dark/50 border border-brand-border rounded-lg relative overflow-hidden">
+        <div class="px-6 text-center max-w-4xl mx-auto">
+            <p class="font-mono text-xs text-[#00FF94] uppercase tracking-widest mb-4">/ TRY THE AI RECEPTIONIST</p>
+            <h2 class="heading-condensed text-3xl md:text-5xl mb-4">This Is What Your Phone Line Sounds Like After UNBACKED</h2>
+            
+            <p class="text-brand-gray text-lg mb-4 leading-relaxed">
+                Aria is a live AI receptionist built by UNBACKED for Ghanou HVAC — our Tampa Bay test environment. Ask about pricing, book an appointment, or test an emergency scenario. This is the actual system running on real infrastructure. Not a recording. Not a simulation.
+            </p>
+            
+            <p class="text-white font-mono text-xs mb-10 tracking-wide">
+                Prefer to call? Dial (813) 854-3449 — Aria answers 24/7.
+            </p>
+
+            <!-- 3-column proof grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10 text-left">
+                <!-- Card 1 -->
+                <div class="bg-brand-black border border-brand-border p-4 rounded relative group">
+                    <div class="flex items-center gap-2 mb-3 border-b border-brand-border pb-3">
+                        <div class="w-2.5 h-2.5 bg-[#00FF94] rounded-full animate-pulse shadow-[0_0_8px_rgba(0,255,148,0.8)]"></div>
+                        <h3 class="font-mono text-[10px] text-brand-gray uppercase tracking-widest">Aria Status</h3>
+                    </div>
+                    <p class="text-xl font-bold text-white mb-1">Live & Answering Calls</p>
+                    <p class="text-brand-gray font-mono text-[10px]">VAPI-powered • Online now</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-brand-black border border-brand-border p-4 rounded relative group">
+                    <div class="flex items-center gap-2 mb-3 border-b border-brand-border pb-3">
+                        <svg class="w-3.5 h-3.5 text-brand-gray" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <h3 class="font-mono text-[10px] text-brand-gray uppercase tracking-widest">Last Test Call</h3>
+                    </div>
+                    <p class="text-xl font-bold text-white mb-1">Web Caller</p>
+                    <p class="text-brand-gray font-mono text-[10px]">Ended · 2 days ago · 0:27</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-brand-black border border-brand-border p-4 rounded relative group">
+                    <div class="flex items-center gap-2 mb-3 border-b border-brand-border pb-3">
+                        <svg class="w-3.5 h-3.5 text-brand-gray" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <h3 class="font-mono text-[10px] text-brand-gray uppercase tracking-widest">Test Environment</h3>
+                    </div>
+                    <p class="text-xl font-bold text-white mb-1">Ghanou HVAC</p>
+                    <p class="text-brand-gray font-mono text-[10px]">AC Repair · Installation</p>
+                </div>
+            </div>
+
+            <!-- Previews -->
+            <div class="flex flex-col md:flex-row gap-6 mb-10">
+                <!-- Left: GEO Website -->
+                <div class="flex-1 text-center">
+                    <p class="font-mono text-[10px] text-brand-gray uppercase tracking-widest mb-3">GEO-Optimized Website</p>
+                    <a href="https://superior-geo-template.vercel.app" target="_blank" rel="noopener" class="block group relative">
+                        <img src="/demo-website.png" alt="GEO-Optimized HVAC Website Demo" class="w-full border border-brand-border rounded shadow-lg transition-transform duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_10px_20px_rgba(0,255,148,0.1)]" loading="lazy">
+                        <div class="absolute inset-0 bg-[#00FF94]/0 group-hover:bg-[#00FF94]/5 transition-colors rounded"></div>
+                    </a>
+                    <a href="https://superior-geo-template.vercel.app" target="_blank" rel="noopener" class="inline-block mt-3 text-[#00FF94] hover:text-white transition-colors font-mono text-xs tracking-wide">View Demo &rarr;</a>
+                </div>
+
+                <!-- Right: Dashboard -->
+                <div class="flex-1 text-center">
+                    <p class="font-mono text-[10px] text-brand-gray uppercase tracking-widest mb-3">Live Operations Dashboard</p>
+                    <a href="https://hvac-dashboard-v2.vercel.app" target="_blank" rel="noopener" class="block group relative">
+                        <img src="/demo-dashboard.png" alt="HVAC Operations Dashboard Demo" class="w-full border border-brand-border rounded shadow-lg transition-transform duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_10px_20px_rgba(0,255,148,0.1)]" loading="lazy">
+                        <div class="absolute inset-0 bg-[#00FF94]/0 group-hover:bg-[#00FF94]/5 transition-colors rounded"></div>
+                    </a>
+                    <a href="https://hvac-dashboard-v2.vercel.app" target="_blank" rel="noopener" class="inline-block mt-3 text-[#00FF94] hover:text-white transition-colors font-mono text-xs tracking-wide">View Dashboard &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Prompts Strip -->
+            <div class="bg-brand-black border border-brand-border rounded p-6">
+                <p class="font-mono text-[10px] text-brand-gray uppercase tracking-widest mb-4">Not sure what to say? Try one of these:</p>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <button class="prompt-chip bg-brand-dark hover:bg-[#00FF94]/10 border border-brand-border hover:border-[#00FF94]/50 text-brand-gray hover:text-white px-3 py-2 rounded text-xs transition-all flex items-center gap-2 group relative overflow-hidden" onclick="copyPrompt('What does AC repair cost?', this)">
+                        <span>"What does AC repair cost?"</span>
+                        <svg class="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:text-[#00FF94] transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </button>
+                    <button class="prompt-chip bg-brand-dark hover:bg-[#00FF94]/10 border border-brand-border hover:border-[#00FF94]/50 text-brand-gray hover:text-white px-3 py-2 rounded text-xs transition-all flex items-center gap-2 group relative overflow-hidden" onclick="copyPrompt('I need someone today — it\'s 95 degrees', this)">
+                        <span>"I need someone today..."</span>
+                        <svg class="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:text-[#00FF94] transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </button>
+                    <button class="prompt-chip bg-brand-dark hover:bg-[#00FF94]/10 border border-brand-border hover:border-[#00FF94]/50 text-brand-gray hover:text-white px-3 py-2 rounded text-xs transition-all flex items-center gap-2 group relative overflow-hidden" onclick="copyPrompt('Do you offer maintenance plans?', this)">
+                        <span>"Do you offer maintenance?"</span>
+                        <svg class="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:text-[#00FF94] transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </button>
+                    <button class="prompt-chip bg-brand-dark hover:bg-[#00FF94]/10 border border-brand-border hover:border-[#00FF94]/50 text-brand-gray hover:text-white px-3 py-2 rounded text-xs transition-all flex items-center gap-2 group relative overflow-hidden" onclick="copyPrompt('I have a gas smell — this is urgent', this)">
+                        <span>"I have a gas smell..."</span>
+                        <svg class="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:text-[#00FF94] transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <script>
+              window.copyPrompt = window.copyPrompt || function(text, btn) {
+                  navigator.clipboard.writeText(text).then(() => {
+                      const span = btn.querySelector('span');
+                      const originalText = span.innerText;
+                      span.innerText = "Copied!";
+                      btn.classList.add('!border-[#00FF94]', '!text-[#00FF94]');
+                      setTimeout(() => {
+                          span.innerText = originalText;
+                          btn.classList.remove('!border-[#00FF94]', '!text-[#00FF94]');
+                      }, 2000);
+                  });
+              }
+            </script>
+        </div>
+    </section>
 
             <!-- LAYER 3: Ops Dashboard -->
             <div class="mb-8">
