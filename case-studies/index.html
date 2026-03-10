@@ -630,9 +630,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 g.defer = true;
                 g.async = true;
                 s.parentNode.insertBefore(g, s);
+            
                 g.onload = function () {
-                  vapiInstance = window.vapiSDK.run({
-                    apiKey: apiKey,
+                  window.vapiSDK.run({
+                    apiKey: apiKey, 
                     assistant: assistant,
                     config: buttonConfig,
                   });
