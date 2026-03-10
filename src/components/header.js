@@ -29,9 +29,9 @@ export const headerHTML = `
 </a>
 </div>
 <div class="flex items-center">
-<button class="bg-brand-blue text-white font-mono text-[10px] md:text-xs px-5 py-2.5 uppercase tracking-widest border border-transparent hover:brightness-110 transition-colors shadow-sm" onclick="window.location.href='/contact/'">
-  BOOK 15 MINUTES
-</button>
+          <button class="bg-brand-blue text-white font-mono text-[10px] md:text-xs px-5 py-2.5 uppercase tracking-widest border border-transparent hover:brightness-110 transition-colors shadow-sm" onclick="window.location.href='/contact/'">
+            WATCH THE SYSTEM LIVE — BOOK 15 MINUTES →
+          </button>
 <button class="ml-4 p-1 md:hidden" id="mobile-menu-btn" aria-label="Toggle menu">
 <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M4 8h16M4 16h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
@@ -52,6 +52,6 @@ export const headerHTML = `
   <a href="/case-studies/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">Case Studies</a>
   <a href="/research/ai-visibility-tampa-hvac/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">Research</a>
   <a href="/about/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">About</a>
-  <button onclick="window.location.href='/contact/'" class="font-mono text-xs uppercase tracking-widest px-8 py-4 bg-[#00FF94] text-black font-bold hover:brightness-110 transition-all text-center">WATCH THE SYSTEM LIVE &rarr;</button>
+  <button onclick="window.location.href='/contact/'" class="font-mono text-xs uppercase tracking-widest px-8 py-4 bg-[#00FF94] text-black font-bold hover:brightness-110 transition-all text-center">WATCH THE SYSTEM LIVE — BOOK 15 MINUTES →</button>
 </div>
 `;
