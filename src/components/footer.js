@@ -1,5 +1,33 @@
 export const footerHTML = `
 <footer class="bg-brand-black text-white font-sans border-t border-brand-border" data-purpose="footer">
+  <!-- AI Engines Banner -->
+  <div class="border-b border-brand-border/50 bg-[#080808]">
+    <div class="max-w-screen-xl mx-auto px-6 py-12 flex flex-col items-center">
+      <p class="font-mono text-[10px] text-brand-gray uppercase tracking-widest mb-8 text-center">Your Business Should Appear On</p>
+      <div class="flex flex-wrap justify-center items-center gap-10 md:gap-16 opacity-50 grayscale contrast-200">
+        <!-- ChatGPT -->
+        <div class="flex items-center gap-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT" class="h-6 w-auto" />
+        </div>
+        <!-- Perplexity -->
+        <div class="flex items-center gap-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Perplexity_AI_logo.svg" alt="Perplexity" class="h-6 w-auto" />
+          <span class="font-bold text-lg tracking-tight font-sans">Perplexity</span>
+        </div>
+        <!-- Gemini -->
+        <div class="flex items-center gap-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg" alt="Gemini" class="h-6 w-auto" />
+          <span class="font-bold text-lg tracking-tight font-sans">Gemini</span>
+        </div>
+        <!-- Claude -->
+        <div class="flex items-center gap-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Anthropic_logo.svg" alt="Claude" class="h-6 w-auto" />
+          <span class="font-bold text-lg tracking-tight font-sans">Claude</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="max-w-screen-xl mx-auto px-6 pt-12 pb-8">
     <div class="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12 mb-12">
       <!-- Logo -->
