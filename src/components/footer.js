@@ -13,8 +13,10 @@ export const footerHTML = `
       <nav class="flex flex-wrap justify-center lg:justify-end gap-x-6 gap-y-4 font-mono text-xs uppercase tracking-widest text-brand-gray">
         <a href="/geo-for-home-services/" class="hover:text-white transition-colors">GEO Method</a>
         <a href="/ai-voice-agent/" class="hover:text-white transition-colors">AI Voice Agent</a>
-        <a href="/ai-visibility-audit/" class="hover:text-white transition-colors">Free Audit</a>
+        <a href="/research/ai-visibility-tampa-hvac/" class="hover:text-white transition-colors">Research</a>
         <a href="/case-studies/" class="hover:text-white transition-colors">Case Studies</a>
+        <a href="/#live-demo" class="hover:text-white transition-colors flex items-center gap-1.5 line-clamp-1">Live Demo <div class="w-1.5 h-1.5 bg-[#00FF94] rounded-full animate-pulse shadow-[0_0_4px_rgba(0,255,148,0.8)]"></div></a>
+        <a href="/ai-visibility-audit/" class="hover:text-white transition-colors">Free Audit</a>
         <a href="/blog/" class="hover:text-white transition-colors">Blog</a>
         <a href="/contact/" class="hover:text-white transition-colors">Contact</a>
         <a href="/privacy-policy/" class="hover:text-white transition-colors">Privacy</a>
