@@ -1,46 +1,37 @@
 export const footerHTML = `
-<footer class="bg-[#080808] py-20 px-6 border-t border-white/10" data-purpose="footer">
-<div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
-<div class="md:col-span-2">
-    <div class="mb-8 md:mb-0">
-      <img src="/unbacked-logo.png?v=2" alt="UNBACKED Logo" class="h-16 md:h-20 w-auto object-contain mb-6 opacity-70 hover:opacity-100 transition-opacity" />
-      <p class="text-brand-gray text-sm max-w-xs leading-relaxed">The only outcome-based AI visibility and automation system for US home service businesses.</p>
+<footer class="bg-brand-black text-white font-sans border-t border-brand-border" data-purpose="footer">
+  <div class="max-w-screen-xl mx-auto px-6 pt-12 pb-8">
+    <div class="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12 mb-12">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="/" class="inline-block">
+          <img src="/unbacked-logo.png?v=2" alt="UNBACKED" class="h-8 md:h-10 w-auto opacity-100 hover:opacity-80 transition-opacity" />
+        </a>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="flex flex-wrap justify-center lg:justify-end gap-x-6 gap-y-4 font-mono text-xs uppercase tracking-widest text-brand-gray">
+        <a href="/geo-for-home-services/" class="hover:text-white transition-colors">GEO Method</a>
+        <a href="/ai-voice-agent/" class="hover:text-white transition-colors">AI Voice Agent</a>
+        <a href="/ai-visibility-audit/" class="hover:text-white transition-colors">Free Audit</a>
+        <a href="/case-studies/" class="hover:text-white transition-colors">Case Studies</a>
+        <a href="/blog/" class="hover:text-white transition-colors">Blog</a>
+        <a href="/contact/" class="hover:text-white transition-colors">Contact</a>
+        <a href="/privacy-policy/" class="hover:text-white transition-colors">Privacy</a>
+        <a href="/terms-of-service/" class="hover:text-white transition-colors">Terms</a>
+        <a href="https://www.linkedin.com/company/unbacked" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-[#00FF94] transition-colors flex items-center">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </nav>
     </div>
-          <br><br>
-          <a href="https://wa.me/213799767241" target="_blank" class="text-brand-blue hover:text-white transition-colors">Call: +213 799 767 241</a>
-        </p>
-</div>
-<div>
-<h5 class="font-mono text-[10px] text-brand-blue uppercase tracking-widest mb-6">/ THE SYSTEM</h5>
-<ul class="space-y-4 font-mono text-xs uppercase tracking-tight">
-<li><a class="hover:text-brand-blue transition-colors" href="/what-we-do/">What We Do</a></li>
-<li><a class="hover:text-brand-blue transition-colors" href="/geo-for-home-services/">The GEO Method</a></li>
-<li><a class="hover:text-brand-blue transition-colors" href="/ai-voice-agent/">AI Voice Agents</a></li>
-<li><a class="hover:text-brand-blue transition-colors" href="/case-studies/">Case Studies</a></li>
-</ul>
-</div>
-<div>
-<h5 class="font-mono text-[10px] text-brand-blue uppercase tracking-widest mb-6">/ COMPANY</h5>
-<ul class="space-y-4 font-mono text-xs uppercase tracking-tight mb-8">
-<li><a class="hover:text-brand-blue transition-colors" href="/about/">About</a></li>
-<li><a class="hover:text-brand-blue transition-colors" href="/ai-visibility-audit/">Free Audit</a></li>
-<li><a class="hover:text-brand-blue transition-colors" href="/contact/">Contact Us</a></li>
-<li><a class="hover:text-[#00FF94] transition-colors" href="https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
-</ul>
-<p class="font-mono text-[10px] text-brand-gray uppercase mb-4"><time datetime="2026-03-08">Last Updated: March 2026</time></p>
-<div class="flex items-center gap-2">
-<div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-<span class="font-mono text-[10px] uppercase">Accepting Beta Partners</span>
-</div>
-</div>
-</div>
-<div class="max-w-screen-xl mx-auto mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-<p class="font-mono text-[9px] text-brand-gray uppercase tracking-widest">© 2026 UNBACKED. ALL RIGHTS RESERVED.</p>
-<div class="flex gap-6">
-<a class="text-brand-gray hover:text-white transition-colors text-xs font-mono uppercase tracking-widest" href="#">Privacy</a>
-<a class="text-brand-gray hover:text-white transition-colors text-xs font-mono uppercase tracking-widest" href="#">Terms</a>
-</div>
-</div>
+
+    <!-- Copyright -->
+    <div class="text-center border-t border-brand-border pt-8">
+      <p class="font-mono text-[9px] md:text-[10px] text-brand-gray uppercase tracking-widest">
+        &copy; 2026 UNBACKED AGENCY. All rights reserved.
+      </p>
+    </div>
+  </div>
 </footer>
 
 <!-- Floating WhatsApp Button -->
