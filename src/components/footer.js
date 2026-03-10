@@ -8,34 +8,25 @@ export const footerHTML = `
         
         <!-- ChatGPT -->
         <div class="flex items-center gap-2">
-          <div class="w-10 h-10 rounded-[10px] bg-[#10A37F]/10 flex items-center justify-center">
-            <svg class="h-6 w-6 fill-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M22.28 9.68a8.38 8.38 0 0 0-1.28-7.53A8.32 8.32 0 0 0 14.15 0a8.39 8.39 0 0 0-6.19 1.76A8.38 8.38 0 0 0 .54 8.7a8.32 8.32 0 0 0-1.63 7.6 8.39 8.39 0 0 0 6.13 6.01 8.38 8.38 0 0 0 7.82-1.93 8.32 8.32 0 0 0 7.3 2.15 8.39 8.39 0 0 0 5.09-8.45 8.38 8.38 0 0 0-2.97-4.4zM3.46 10.97v-1.12c0-3.3 1.9-5.32 5.09-5.32 1.3 0 2.53.48 3.48 1.34l-1.07 1.25a3.68 3.68 0 0 0-2.41-.93c-1.92 0-3.23 1.35-3.23 3.44v1.34zm6.09 7.37a4.92 4.92 0 0 1-3.62-1.57l1.1-1.22a3.46 3.46 0 0 0 2.52 1.09c1.94 0 3.25-1.35 3.25-3.46v-2.12h1.8v2.12c0 3.32-1.91 5.34-5.05 5.34zm3.62-6.6a4.57 4.57 0 0 1-1.36 3.3l-1.13-1.13a3.03 3.03 0 0 0 .76-2.17c0-2-1.36-3.37-3.26-3.37a3.49 3.49 0 0 0-2.5 1.05l-1.12-1.12a5.04 5.04 0 0 1 3.62-1.55c3.13 0 5.05 1.99 5.05 5.09v-.1zM14.6 11zm1.2-4.14a4.9 4.9 0 0 1 3.48-1.42c3.12 0 4.98 2.02 4.98 5.25v1.22h-1.8v-1.22c0-2.07-1.3-3.41-3.18-3.41a3.52 3.52 0 0 0-2.4.95zm.74 3.73v1.89c0 3.28-1.86 5.3-4.99 5.3a4.94 4.94 0 0 1-3.51-1.46l1.1-1.18a3.3 3.3 0 0 0 2.41 1c1.86 0 3.19-1.34 3.19-3.46v-1.81zM11.96 11l-2.06 2.06h4.12zm9.14 0v2.7h-1.8v-2.7c0-2-1.36-3.38-3.26-3.38a3.5 3.5 0 0 0-2.52 1.08l-1.13-1.11a5.06 5.06 0 0 1 3.65-1.59c3.15 0 5.06 1.98 5.06 5zm-3.83-3.08l-2.06 2.06h4.12z"/>
-            </svg>
-          </div>
+          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" alt="ChatGPT" class="h-6 w-auto" />
         </div>
 
         <!-- Perplexity -->
         <div class="flex items-center gap-2">
-          <svg class="h-8 w-8 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square">
-            <path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19"/>
-            <rect x="9" y="9" width="6" height="6" fill="currentColor" stroke="none" />
-          </svg>
-          <span class="font-medium text-2xl tracking-tight" style="font-family: 'Inter', ui-sans-serif, system-ui; letter-spacing: -0.04em;">Perplexity</span>
+          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/perplexity.svg" alt="Perplexity" class="h-6 w-auto" />
+          <span class="font-bold text-lg tracking-tight font-sans">Perplexity</span>
         </div>
 
         <!-- Gemini -->
-        <div class="flex items-center gap-1.5">
-          <span class="font-medium text-[26px] tracking-tight" style="font-family: 'Google Sans', 'Inter', ui-sans-serif, system-ui; letter-spacing: -0.04em; background: linear-gradient(90deg, #fff 0%, #eee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Gemini</span>
-          <svg class="h-7 w-7 text-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 0C12 6.62742 17.3726 12 24 12C17.3726 12 12 17.3726 12 24C12 17.3726 6.62742 12 0 12C6.62742 12 12 6.62742 12 0Z"/>
-          </svg>
+        <div class="flex items-center gap-2">
+          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini-color.svg" alt="Gemini" class="h-6 w-auto" />
+          <span class="font-bold text-lg tracking-tight font-sans">Gemini</span>
         </div>
 
         <!-- Claude -->
         <div class="flex items-center gap-2">
-          <svg class="h-8 w-8 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H8v-2h6v2zm2-4H8v-2h8v2zm0-4H8V7h8v2z"/></svg>
-          <span class="text-[25px]" style="font-family: 'Times New Roman', Times, serif; font-weight: 500; letter-spacing: -0.01em;">Claude</span>
+          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/anthropic.svg" alt="Claude" class="h-6 w-auto" />
+          <span class="font-bold text-lg tracking-tight font-sans">Claude</span>
         </div>
       </div>
     </div>
