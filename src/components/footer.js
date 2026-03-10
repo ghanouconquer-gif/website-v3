@@ -6,27 +6,29 @@ export const footerHTML = `
       <p class="font-mono text-[10px] text-brand-gray uppercase tracking-widest mb-8 text-center">Your Business Should Appear On</p>
         <div class="flex flex-wrap justify-center items-center gap-10 md:gap-14 opacity-50 grayscale contrast-125 hover:opacity-100 hover:grayscale-0 transition-all duration-300">
         
+        <!-- Google -->
+        <div class="flex items-center gap-2">
+          <img src="/logos/media__1773147416571.png" alt="Google" class="h-6 w-auto" />
+        </div>
+
         <!-- ChatGPT -->
         <div class="flex items-center gap-2">
-          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" alt="ChatGPT" class="h-6 w-auto" />
+          <img src="/logos/media__1773147426664.png" alt="ChatGPT" class="h-6 w-auto" />
         </div>
 
         <!-- Perplexity -->
         <div class="flex items-center gap-2">
-          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/perplexity.svg" alt="Perplexity" class="h-6 w-auto" />
-          <span class="font-bold text-lg tracking-tight font-sans">Perplexity</span>
+          <img src="/logos/media__1773147438050.png" alt="Perplexity" class="h-6 w-auto" />
         </div>
 
         <!-- Gemini -->
         <div class="flex items-center gap-2">
-          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini-color.svg" alt="Gemini" class="h-6 w-auto" />
-          <span class="font-bold text-lg tracking-tight font-sans">Gemini</span>
+          <img src="/logos/media__1773147445855.png" alt="Gemini" class="h-6 w-auto" />
         </div>
 
         <!-- Claude -->
         <div class="flex items-center gap-2">
-          <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/anthropic.svg" alt="Claude" class="h-6 w-auto" />
-          <span class="font-bold text-lg tracking-tight font-sans">Claude</span>
+          <img src="/logos/media__1773147485128.png" alt="Claude" class="h-6 w-auto" />
         </div>
       </div>
     </div>
