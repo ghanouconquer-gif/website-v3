@@ -5,29 +5,32 @@ export const headerHTML = `
   <img src="/unbacked-logo.png?v=2" alt="UNBACKED Logo" class="h-10 md:h-12 w-auto object-contain" />
 </a>
 </div>
-<div class="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
-<a href="/what-we-do/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors flex items-center gap-1 nav-link">
-  Services <svg class="w-3 h-3 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+<div class="hidden md:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">
+<a href="/what-we-do/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
+  What We Do
 </a>
 <a href="/geo-for-home-services/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
-  Methodology
+  GEO for Business
 </a>
-<a href="/case-studies/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors flex items-center gap-2 nav-link">
-  Results <span class="bg-brand-blue text-white text-[9px] font-bold px-1.5 py-0.5 uppercase tracking-wider rounded-sm">New</span>
+<a href="/ai-voice-agent/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
+  AI Voice Agent
 </a>
-<a href="#pricing" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
-  Pricing
+<a href="/ai-visibility-audit/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
+  AI Visibility Audit
 </a>
-<a href="/blog/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
-  Blog
+<a href="/case-studies/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
+  Case Studies
 </a>
-<a href="/ai-visibility-audit/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors flex items-center gap-1 nav-link">
-  Tools <svg class="w-3 h-3 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+<a href="/research/ai-visibility-tampa-hvac/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
+  Research
+</a>
+<a href="/about/" class="text-[13px] font-medium text-gray-300 hover:text-white transition-colors nav-link">
+  About
 </a>
 </div>
 <div class="flex items-center">
 <button class="bg-brand-blue text-white font-mono text-[10px] md:text-xs px-5 py-2.5 uppercase tracking-widest border border-transparent hover:brightness-110 transition-colors shadow-sm" onclick="window.location.href='/contact/'">
-  SPEAK WITH TEAM
+  BOOK 15 MINUTES
 </button>
 <button class="ml-4 p-1 md:hidden" id="mobile-menu-btn" aria-label="Toggle menu">
 <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -36,17 +39,19 @@ export const headerHTML = `
 </button>
 </div>
 </nav>
+
 <!-- Mobile Menu Overlay -->
 <div id="mobile-menu" class="fixed inset-0 bg-white z-40 hidden flex-col items-center justify-center pt-16">
   <button id="close-menu-btn" class="absolute top-4 right-4 p-2">
     <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
   </button>
-  <a href="/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Home</a>
-  <a href="/what-we-do/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Services</a>
-  <a href="/geo-for-home-services/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Methodology</a>
-  <a href="/case-studies/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Results</a>
-  <a href="/blog/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Blog</a>
-  <a href="/ai-visibility-audit/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Tools</a>
-  <!-- Speak with team button removed -->
+  <a href="/what-we-do/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">What We Do</a>
+  <a href="/geo-for-home-services/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">GEO for Business</a>
+  <a href="/ai-voice-agent/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">AI Voice Agent</a>
+  <a href="/ai-visibility-audit/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">AI Visibility Audit</a>
+  <a href="/case-studies/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">Case Studies</a>
+  <a href="/research/ai-visibility-tampa-hvac/" class="text-2xl font-bold mb-4 hover:text-gray-500 nav-link text-black">Research</a>
+  <a href="/about/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">About</a>
+  <button onclick="window.location.href='/contact/'" class="font-mono text-xs uppercase tracking-widest px-8 py-4 bg-[#00FF94] text-black font-bold hover:brightness-110 transition-all text-center">WATCH THE SYSTEM LIVE &rarr;</button>
 </div>
 `;
