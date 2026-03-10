@@ -47,6 +47,6 @@ export const headerHTML = `
   <a href="/case-studies/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Results</a>
   <a href="/blog/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Blog</a>
   <a href="/ai-visibility-audit/" class="text-2xl font-bold mb-6 hover:text-gray-500 nav-link text-black">Tools</a>
-  <a href="https://wa.me/213799767241" target="_blank" class="text-2xl font-bold text-orange-600 mt-4 border border-orange-200 px-6 py-2">Speak With Team</a>
+  <!-- Speak with team button removed -->
 </div>
 `;
