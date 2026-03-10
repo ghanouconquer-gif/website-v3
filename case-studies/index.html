@@ -617,6 +617,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
 
             <script>
+              var vapiInstance = null;
+              const assistant = "d0b1c1d4-f12d-4812-abfc-7ce0c91e0a62";
+              const apiKey = "87d8a815-86e9-45ed-97e2-c5ac0f6495f5";
+              const buttonConfig = {};
+            
+              (function (d, t) {
+                var g = document.createElement(t),
+                  s = d.getElementsByTagName(t)[0];
+                g.src =
+                  "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+                g.defer = true;
+                g.async = true;
+                s.parentNode.insertBefore(g, s);
+                g.onload = function () {
+                  vapiInstance = window.vapiSDK.run({
+                    apiKey: apiKey,
+                    assistant: assistant,
+                    config: buttonConfig,
+                  });
+                };
+              })(document, "script");
+
               window.copyPrompt = window.copyPrompt || function(text, btn) {
                   navigator.clipboard.writeText(text).then(() => {
                       const span = btn.querySelector('span');
