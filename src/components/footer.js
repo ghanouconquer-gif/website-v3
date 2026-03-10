@@ -7,28 +7,34 @@ export const footerHTML = `
         <div class="flex flex-wrap justify-center items-center gap-10 md:gap-14 opacity-50 grayscale contrast-125 hover:opacity-100 hover:grayscale-0 transition-all duration-300">
         
         <!-- Google -->
+        <!-- Google -->
         <div class="flex items-center gap-2">
-          <img src="/logos/media__1773147416571.png" alt="Google" class="h-6 w-auto" />
+          <img src="/logos/media__1773147416571.png" alt="Google" class="h-12 w-auto transition-transform duration-300 hover:scale-110 cursor-pointer" />
         </div>
 
         <!-- ChatGPT -->
         <div class="flex items-center gap-2">
-          <img src="/logos/media__1773147426664.png" alt="ChatGPT" class="h-6 w-auto" />
+          <img src="/logos/media__1773147426664.png" alt="ChatGPT" class="h-12 w-auto transition-transform duration-300 hover:scale-110 cursor-pointer" />
         </div>
 
         <!-- Perplexity -->
         <div class="flex items-center gap-2">
-          <img src="/logos/media__1773147438050.png" alt="Perplexity" class="h-6 w-auto" />
+          <img src="/logos/media__1773147438050.png" alt="Perplexity" class="h-12 w-auto transition-transform duration-300 hover:scale-110 cursor-pointer" />
         </div>
 
         <!-- Gemini -->
         <div class="flex items-center gap-2">
-          <img src="/logos/media__1773147445855.png" alt="Gemini" class="h-6 w-auto" />
+          <img src="/logos/media__1773147445855.png" alt="Gemini" class="h-12 w-auto transition-transform duration-300 hover:scale-110 cursor-pointer" />
         </div>
 
         <!-- Claude -->
         <div class="flex items-center gap-2">
-          <img src="/logos/media__1773147485128.png" alt="Claude" class="h-6 w-auto" />
+          <img src="/logos/media__1773147485128.png" alt="Claude" class="h-12 w-auto transition-transform duration-300 hover:scale-110 cursor-pointer" />
+        </div>
+
+        <!-- New Logo -->
+        <div class="flex items-center gap-2">
+          <img src="/logos/media__1773148036786.png" alt="New Logo" class="h-12 w-auto transition-transform duration-300 hover:scale-110 cursor-pointer" />
         </div>
       </div>
     </div>
