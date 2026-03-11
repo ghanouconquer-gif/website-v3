@@ -45,4 +45,40 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.style.overflow = '';
         });
     }
+
+    // --- GA4 Conversion Event Tracking ---
+
+    // EVENT 1: CTA button clicks
+    document.querySelectorAll('a[href="/contact/"]').forEach(btn => {
+        btn.addEventListener('click', function () {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: 'cta_click',
+                cta_text: this.innerText.trim(),
+                cta_location: document.title
+            });
+        });
+    });
+
+    // EVENT 3: Scroll depth on homepage
+    if (window.location.pathname === '/') {
+        let depths = [25, 50, 75, 90];
+        let fired = {};
+        window.addEventListener('scroll', function () {
+            let scrollPct = Math.round(
+                (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
+            );
+            depths.forEach(function (d) {
+                if (scrollPct >= d && !fired[d]) {
+                    fired[d] = true;
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        event: 'scroll_depth',
+                        depth: d + '%',
+                        page: 'homepage'
+                    });
+                }
+            });
+        });
+    }
 });
