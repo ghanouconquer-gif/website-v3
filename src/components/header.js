@@ -29,7 +29,7 @@ export const headerHTML = `
 </a>
 </div>
 <div class="flex items-center">
-          <button class="bg-brand-blue text-white font-mono text-[10px] md:text-xs px-5 py-2.5 uppercase tracking-widest border border-transparent hover:brightness-110 transition-colors shadow-sm" onclick="window.location.href='/contact/'">
+          <button class="hidden md:inline-block bg-brand-blue text-white font-mono text-[10px] md:text-xs px-5 py-2.5 uppercase tracking-widest border border-transparent hover:brightness-110 transition-colors shadow-sm" onclick="window.location.href='/contact/'">
             WATCH THE SYSTEM LIVE — BOOK 15 MINUTES →
           </button>
 <button class="ml-4 p-1 md:hidden" id="mobile-menu-btn" aria-label="Toggle menu">
@@ -41,7 +41,7 @@ export const headerHTML = `
 </nav>
 
 <!-- Mobile Menu Overlay -->
-<div id="mobile-menu" class="fixed inset-0 bg-white z-40 hidden flex-col items-center justify-center pt-16">
+<div id="mobile-menu" class="fixed inset-0 bg-white z-40 hidden items-center justify-center pt-16" style="flex-direction:column">
   <button id="close-menu-btn" class="absolute top-4 right-4 p-2">
     <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
   </button>

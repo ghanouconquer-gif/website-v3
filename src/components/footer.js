@@ -4,7 +4,7 @@ export const footerHTML = `
   <div class="border-b border-brand-border/50 bg-[#080808]">
     <div class="max-w-screen-xl mx-auto px-6 py-12 flex flex-col items-center">
       <p class="font-mono text-[10px] text-brand-gray uppercase tracking-widest mb-8 text-center">Your Business Should Appear On</p>
-        <div class="flex flex-wrap justify-center items-center gap-10 md:gap-14 opacity-50 grayscale contrast-125 hover:opacity-100 hover:grayscale-0 transition-all duration-300">
+        <div class="flex flex-wrap justify-center items-center gap-6 md:gap-14 opacity-50 grayscale contrast-125 hover:opacity-100 hover:grayscale-0 transition-all duration-300">
         
         <!-- Google -->
         <!-- Google -->
@@ -50,7 +50,7 @@ export const footerHTML = `
       </div>
 
       <!-- Navigation -->
-      <nav class="flex flex-wrap justify-center lg:justify-end gap-x-6 gap-y-4 font-mono text-xs uppercase tracking-widest text-brand-gray">
+      <nav class="flex flex-wrap justify-center lg:justify-end gap-x-6 gap-y-2 font-mono text-xs uppercase tracking-widest text-brand-gray [&>a]:py-2 [&>a]:inline-block">
         <a href="/geo-for-home-services/" class="hover:text-white transition-colors">GEO Method</a>
         <a href="/ai-voice-agent/" class="hover:text-white transition-colors">AI Voice Agent</a>
         <a href="/research/ai-visibility-tampa-hvac/" class="hover:text-white transition-colors">Research</a>

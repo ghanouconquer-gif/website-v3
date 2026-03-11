@@ -42,6 +42,44 @@
     width: 200%;
 }
 
+/* Mobile: table horizontal-scroll indicator */
+.overflow-x-auto {
+    position: relative;
+}
+.overflow-x-auto::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 32px;
+    background: linear-gradient(to right, transparent, #0A0A0A);
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+/* Hide the fade when fully scrolled or on wider screens */
+@media (min-width: 768px) {
+    .overflow-x-auto::after {
+        display: none;
+    }
+}
+
+/* Mobile: reduce hero heading size on smallest screens */
+@media (max-width: 639px) {
+    .heading-condensed {
+        font-size: 2rem;      /* 32px instead of 48px (text-5xl) */
+        line-height: 0.95;
+    }
+}
+
+/* Mobile: Calendly embed responsive height */
+@media (max-width: 639px) {
+    .calendly-inline-widget {
+        min-height: 520px !important;
+    }
+}
+
 /* Gradient + Noise Background */
 .bg-gradient-noise {
     background:
