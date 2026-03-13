@@ -22,6 +22,7 @@ export default defineConfig({
         blogAgencies: resolve(__dirname, 'blog/best-hvac-marketing-agencies-2026/index.html'),
         blogAngiThumbtack: resolve(__dirname, 'blog/angi-vs-thumbtack-for-hvac-2026/index.html'),
         blogNoMoneyHvac: resolve(__dirname, 'blog/how-to-start-hvac-business-no-money/index.html'),
+        blogHvacSalary2026: resolve(__dirname, 'blog/hvac-business-owner-salary-2026/index.html'),
         researchTampa: resolve(__dirname, 'research/ai-visibility-tampa-hvac/index.html')
       }
     }
