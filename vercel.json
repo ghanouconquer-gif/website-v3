@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "http://unbacked.agency/(.*)",
+            "destination": "https://unbacked.agency/$1",
+            "permanent": true
+        }
+    ]
+}
