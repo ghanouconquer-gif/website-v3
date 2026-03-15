@@ -41,21 +41,8 @@ def process_file(filepath):
         f.write(content)
 
 # Target files
-files_to_update = [
-    "index.html",
-    "what-we-do/index.html",
-    "case-studies/index.html",
-    "about/index.html",
-    "contact/index.html",
-    "ai-voice-agent/index.html",
-    "geo-for-home-services/index.html",
-    "ai-visibility-audit/index.html",
-    "research/ai-visibility-tampa-hvac/index.html",
-    "blog/index.html",
-    "blog/hvac-market-2026/index.html",
-    "blog/best-hvac-marketing-agencies-2026/index.html",
-    "blog/angi-vs-thumbtack-for-hvac-2026/index.html"
-]
+files_to_update = glob.glob("**/index.html", recursive=True)
+files_to_update = [f for f in files_to_update if "node_modules" not in f and "dist" not in f]
 
 for file in files_to_update:
     if os.path.exists(file):
