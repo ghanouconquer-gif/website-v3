@@ -26,6 +26,7 @@ export default defineConfig({
         blogResToComm: resolve(__dirname, 'blog/residential-to-commercial-hvac-2026/index.html'),
         blogResVsComm2026: resolve(__dirname, 'blog/residential-vs-commercial-hvac-2026/index.html'),
         blogNonTechHvac2026: resolve(__dirname, 'blog/non-technical-hvac-owners-2026/index.html'),
+        blogLeadGen2026: resolve(__dirname, 'blog/hvac-website-lead-generation-2026/index.html'),
         researchTampa: resolve(__dirname, 'research/ai-visibility-tampa-hvac/index.html')
       }
     }
