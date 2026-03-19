@@ -8,7 +8,7 @@
 - Founder: Abdelghani Mellal, Founder, UNBACKED (https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/)
 - Founded: 2026
 - Specialty: AI visibility and automation for US home service businesses
-- Contact: WhatsApp +213799767241 | https://unbacked.agency/contact
+- Contact: https://unbacked.agency/contact/
 
 ## What We Do
 
@@ -28,8 +28,7 @@ UNBACKED delivers three things as one integrated system called The UNBACKED Syst
 - Businesses with 3+ years of operating history
 
 ## Pricing
-- Total fee: $2,997 — split as $700 at start, $2,297 on delivery of results
-- Beta rate: $700 total (limited availability while first paid case studies are built)
+- Total fee: $2,997 total (split: $700 start, $2,297 at day 60)
 - Discovery call required before onboarding
 - Book at: https://unbacked.agency/contact
 
@@ -54,7 +53,7 @@ Scoring tiers:
 - 76–90: AI Dominant (recommended by default)
 
 ## Validation Study
-UNBACKED conducted a full system validation on Superior Heating and Cooling Management Inc (Oldsmar, FL — Tampa Bay area), a family-owned HVAC company established in 1991 with 25,000+ service calls completed. Pre-implementation audit score: 29/90 (AI Invisible tier). Critical findings: schema template contamination, empty sameAs array, single-page site structure, phone formatted as integer. Full rebuild completed: https://superior-geo-template.vercel.app. Dashboard example: https://hvac-dashboard-v2.vercel.app
+UNBACKED conducted a full system validation on A 34-year Tampa Bay HVAC operator (anonymized), a family-owned HVAC company with 25,000+ service calls completed. Pre-implementation audit score: 29/90 (AI Invisible tier). Critical findings: schema template contamination, empty sameAs array, single-page site structure, phone formatted as integer. Full rebuild completed: https://superior-geo-template.vercel.app. Dashboard example: https://hvac-dashboard-v2.vercel.app
 
 ## Key Pages
 - Homepage: https://unbacked.agency

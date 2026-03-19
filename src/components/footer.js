@@ -45,7 +45,7 @@ export const footerHTML = `
       <!-- Logo -->
       <div class="flex-shrink-0">
         <a href="/" class="inline-block">
-          <img src="/unbacked-logo.png?v=2" alt="UNBACKED Agency — AI Visibility and Automation" class="h-8 md:h-10 w-auto opacity-100 hover:opacity-80 transition-opacity" />
+          <img src="/unbacked-logo.webp" alt="UNBACKED Agency — AI Visibility and Automation" class="h-8 md:h-10 w-auto opacity-100 hover:opacity-80 transition-opacity" />
         </a>
       </div>
 

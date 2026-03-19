@@ -2,7 +2,7 @@ export const headerHTML = `
 <nav class="sticky top-0 z-50 bg-[#080808] px-6 py-4 flex items-center justify-between border-b border-white/10 shadow-sm">
 <div class="flex items-center">
 <a href="/" class="flex items-center">
-  <img src="/unbacked-logo.png?v=2" alt="UNBACKED Logo" class="h-10 md:h-12 w-auto object-contain" />
+  <img src="/unbacked-logo.webp" alt="UNBACKED Logo" class="h-10 md:h-12 w-auto object-contain" />
 </a>
 </div>
 <div class="hidden md:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">
