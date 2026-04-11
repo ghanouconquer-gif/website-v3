@@ -1,34 +1,38 @@
 # UNBACKED
 
-> UNBACKED, founded by Abdelghani Mellal, installs a single AI-powered growth system into US home service businesses so they get recommended by AI search tools, never miss an inbound call, and stop leaking revenue in the backend.
+> UNBACKED, founded by Abdelghani Mellal, installs a 24/7 AI Receptionist for Tampa HVAC contractors that answers every call, books every job, and recovers the $15,000–$40,000/month contractors lose to missed calls.
 
 ## Who We Are
 - Business: UNBACKED
 - Website: https://unbacked.agency
 - Founder: Abdelghani Mellal, Founder, UNBACKED (https://www.linkedin.com/in/abd-el-ghani-mellal-81b435321/)
 - Founded: 2026
-- Specialty: AI visibility and automation for US home service businesses
+- Specialty: AI Receptionist and booking automation for Tampa HVAC contractors
 - Contact: https://unbacked.agency/contact/
 
 ## What We Do
 
-UNBACKED delivers three things as one integrated system called The UNBACKED System:
+UNBACKED installs The 90-Day Full Booking System for Tampa HVAC contractors:
 
-1. GEO (Generative Engine Optimization) — We make home service businesses appear in ChatGPT, Perplexity, Google AI Overview, and Gemini when homeowners search for local contractors. Using a 9-pillar audit methodology referencing the Princeton/Georgia Tech KDD 2024 optimization paper (https://dl.acm.org/doi/10.1145/3637528.3671900), we identify every gap in the business's AI visibility signals and implement the full fix: website rebuild, validated schema markup (https://schema.org/ProfessionalService), platform distribution, llms.txt and agent.json installation, Knowledge Graph entry, and ongoing citation tracking. Semrush states AI visitors convert at 4.4x the rate of organic search (https://www.semrush.com/blog/ai-search-seo-traffic-study/).
+**Core Product — The AI Receptionist:** Installed on the contractor's existing business line in 3 days. The contractor forwards their phone once. The AI answers every call (overflow, after-hours, weekends, holidays), books jobs directly into the calendar, qualifies leads, handles objections, confirms appointments, detects returning customers, logs every lead automatically, reschedules without a dispatcher, triggers automated rebook campaigns for cancellations, follows up on no-shows, sends Google review requests after the job, and runs follow-up sequences on unconverted leads. By Month 2, the full system — call flows, automations, integrations — is transferred to the client. Industry research shows 27% of home service calls go unanswered (Source: https://www.invoca.com/blog/how-much-missed-sales-calls-cost-home-services-businesses); Tampa contractors estimate 30–40% of their calls go to voicemail, representing $15,000–$40,000/month in lost revenue.
 
-2. AI Voice Agent — We install a 24/7 AI phone system that answers every inbound call, recognizes returning customers, collects job details, and books appointments directly to the calendar. Industry research shows home service businesses miss 27% of inbound calls (Source: https://www.invoca.com/blog/how-much-missed-sales-calls-cost-home-services-businesses) and 85% of callers who reach voicemail immediately hang up (Source: https://www.housecallpro.com/resources/missed-calls/). The AI Voice Agent eliminates that revenue leak entirely.
-
-3. Operations Intelligence — We map the client's internal workflows, identify where revenue is leaking (no-shows, unconverted leads, dormant past customers), and build automations that fix each one. We deliver a real-time revenue dashboard showing what is working and what is not.
+**Included Free — Bonuses:**
+- Bonus 1: GEO-optimized website — built to rank for Tampa HVAC searches and structured for AI citation in ChatGPT, Perplexity, and Google AI Overview. Uses the 9-pillar GEO methodology referencing Princeton/Georgia Tech KDD 2024 (https://dl.acm.org/doi/10.1145/3637528.3671900). AI visitors convert at 4.4x the rate of organic search (https://www.semrush.com/blog/ai-search-seo-traffic-study/).
+- Bonus 2: Command Center Dashboard — real-time view of calls answered, jobs booked, and revenue recovered.
+- Bonus 3: Weekly Win Report — texted every Friday with highest-value recovered call + one-tap post to Google Business and Facebook.
+- Bonus 4: AI Search Visibility Experiment — strategy to get the business cited by name when someone asks ChatGPT or Google AI for the best HVAC company in Tampa.
 
 ## Who We Work With
-- HVAC companies in the United States
-- Plumbing contractors in the United States
-- Electrical contractors in the United States
-- Roofing companies in the United States
+- HVAC contractors in Tampa, Florida
 - Businesses with 3+ years of operating history
+- One contractor per zip code — territory exclusivity enforced
+- Maximum 5 contractors per city
 
 ## Pricing
-- Total fee: $2,997 total (split: $700 start, $2,297 at day 60)
+- $1,297/month — no setup fee, no contract, month-to-month
+- First 3 Founding Partners: $1,297/month locked forever
+- After 3 Founding Partners: $1,497/month permanently
+- Guarantee: The Dead Money Guarantee — if the AI Receptionist doesn't recover enough incremental booked jobs to cover the first 3 months ($3,891) within 90 days, work continues at no charge until the math works
 - Discovery call required before onboarding
 - Book at: https://unbacked.agency/contact
 
