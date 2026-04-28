@@ -1,7 +1,7 @@
 import './style.css'
 import { headerHTML } from './src/components/header.js'
 import { footerHTML } from './src/components/footer.js'
-
+import { initVapiButton } from './src/components/VapiCallButton.js'
 document.addEventListener('DOMContentLoaded', () => {
     // Inject Header
     const headerContainer = document.getElementById('global-nav');
@@ -81,4 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // Initialize Vapi Button if container exists
+    initVapiButton('vapi-call-button-container');
 });
